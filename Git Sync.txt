@@ -1,0 +1,17 @@
+For intorducing Git to local:
+C:\Users\mirza>git clone https://github.com/Yuri-Koochikeh/coursera-test.git
+
+for choosing a different branch (gh-pages):
+C:\Users\mirza>coursera-test>git checkout gh-pages
+
+For Instant Sync:
+C:\Users\mirza\coursera-test\site>browser-sync start --server --directory --files "*"
+
+For Syncing edited files from Git to Local 
+C:\Users\mirza\coursera-test>git pull
+
+For Syncing edited files from local to git
+C:\Users\mirza\coursera-test>git add .
+C:\Users\mirza\coursera-test>git status
+C:\Users\mirza\coursera-test>git commit -m "My First Page."
+C:\Users\mirza\coursera-test>git push
